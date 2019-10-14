@@ -1,0 +1,271 @@
+@import "normalize.css";
+@import "variable.scss";
+.picture {
+  display: grid;
+  grid-template-columns: repeat(55, 10px);
+  grid-template-rows: repeat(38, 10px);
+  &__box {
+
+  	&:first-child {
+  		background-color: $color1;
+  		grid-column: 1 / 3;
+   		grid-row: 1 / 8;
+  	}
+  	&:nth-child(2) {
+  		background-color: $color2;
+  		grid-column: 3 / 4;
+   		grid-row: 1 / 34;
+  	}
+  	&:nth-child(3) {
+  		background-color: $color1;
+   		grid-column: 4 / 23;
+   		grid-row: 1 / 3;
+  	}
+  	&:nth-child(4) {
+  		background-color: $color2;
+  		grid-column: 23 / 24;
+   		grid-row: 1 / 25;
+  	}
+  	&:nth-child(5) {
+  		background-color: $color1;
+   		grid-column: 24 / 48;
+   		grid-row: 1 / 3;
+  	}
+  	&:nth-child(6) {
+  		background-color: $color2;
+  		grid-column: 48 / 49;
+   		grid-row: 1 / 31;
+  	}
+  	&:nth-child(7) {
+  		background-color: $color1;
+   		grid-column: 49 / 52;
+   		grid-row: 1 / 19;
+  	}
+    &:nth-child(8) {
+  		background-color: $color2;
+  		grid-column: 52 / 53;
+   		grid-row: 1 / 19;
+  	}
+  	&:nth-child(9) {
+  		background-color: $color3;
+   		grid-column: 53 / 56;
+   		grid-row: 1 / 19;
+  	}
+  	&:nth-child(10) {
+  		background-color: $color2;
+   		grid-column: 4 / 48;
+   		grid-row: 3 / 4;
+  	}
+ 	&:nth-child(11) {
+  		background-color: $color4;
+   		grid-column: 4 / 23;
+   		grid-row: 4 / 8;
+  	}
+  	&:nth-child(12) {
+  		background-color: $color1;
+   		grid-column: 24 / 32;
+   		grid-row: 4 / 8;
+  	}
+  	&:nth-child(13) {
+  		background-color: $color2;
+   		grid-column: 32 / 33;
+   		grid-row: 4 / 25;
+  	}
+  	&:nth-child(14) {
+  		background-color: $color4;
+   		grid-column: 33 / 48;
+   		grid-row: 4 / 8;
+  	}
+  	&:nth-child(15) {
+  		background-color: $color2;
+   		grid-column: 1 / 48;
+   		grid-row: 8 / 9;
+  	}
+  	&:nth-child(16) {
+  		background-color: $color2;
+   		grid-column: 1 / 3;
+   		grid-row: 9 / 24;
+  	}
+  	&:nth-child(17) {
+  		background-color: $color1;
+   		grid-column: 4 / 9;
+   		grid-row: 9 / 24;
+  	}
+  	&:nth-child(18) {
+  		background-color: $color2;
+   		grid-column: 9 / 13;
+   		grid-row: 9 / 34;
+  	}
+  	&:nth-child(19) {
+  		background-color: $color1;
+   		grid-column: 1 / 3;
+   		grid-row: 25 / 34;
+  	}
+  	&:nth-child(20) {
+  		background-color: $color5;
+   		grid-column: 4 / 9;
+   		grid-row: 25 / 34;
+  	}
+  	&:nth-child(21) {
+  		background-color: $color2;
+   		grid-column: 1 / 13;
+   		grid-row: 34 / 35;
+  	}
+  	&:nth-child(22) {
+  		background-color: $color1;
+   		grid-column: 1 / 12;
+   		grid-row: 35 / 39;
+  	}
+  	&:nth-child(23) {
+  		background-color: $color2;
+   		grid-column: 12 / 13;
+   		grid-row: 35 / 39;
+  	}
+  	&:nth-child(24) {
+  		background-color: $color1;
+   		grid-column: 13 / 20;
+   		grid-row: 9 / 19;
+  	}
+  	&:nth-child(25) {
+  		background-color: $color2;
+   		grid-column: 20 / 21;
+   		grid-row: 9 / 19;
+  	}
+  	&:nth-child(26) {
+  		background-color: $color1;
+   		grid-column: 21 / 23;
+   		grid-row: 9 / 19;
+  	}
+  	&:nth-child(27) {
+  		background-color: $color2;
+   		grid-column: 13 / 56;
+   		grid-row: 19 / 20;
+  	}
+  	&:nth-child(28) {
+  		background-color: $color3;
+   		grid-column: 24 / 32;
+   		grid-row: 9 / 19;
+  	}
+  	&:nth-child(29) {
+  		background-color: $color3;
+   		grid-column: 13 / 16;
+   		grid-row: 20 / 24;
+  	}
+  	&:nth-child(30) {
+  		background-color: $color2;
+   		grid-column: 1 / 56;
+   		grid-row: 24 / 25;
+  	}
+  	&:nth-child(31) {
+  		background-color: $color5;
+   		grid-column: 33 / 44;
+   		grid-row: 9 / 19;
+  	}
+  	&:nth-child(32) {
+  		background-color: $color5;
+   		grid-column: 45 / 48;
+   		grid-row: 9 / 19;
+  	}
+  	&:nth-child(33) {
+  		background-color: $color2;
+   		grid-column: 16 / 17;
+   		grid-row: 20 / 39;
+  	}
+  	&:nth-child(34) {
+  		background-color: $color3;
+   		grid-column: 13 / 16;
+   		grid-row: 25 / 39;
+  	}
+  	&:nth-child(35) {
+  		background-color: $color5;
+   		grid-column: 17 / 23;
+   		grid-row: 20 / 24;
+  	}
+  	&:nth-child(36) {
+  		background-color: $color4;
+   		grid-column: 24 / 32;
+   		grid-row: 20 / 24;
+  	}
+  	&:nth-child(37) {
+  		background-color: $color1;
+   		grid-column: 33 / 44;
+   		grid-row: 20 / 24;
+  	}
+  	&:nth-child(38) {
+  		background-color: $color1;
+   		grid-column: 45 / 48;
+   		grid-row: 20 / 24;
+  	}
+  	&:nth-child(39) {
+  		background-color: $color2;
+   		grid-column: 49 / 56;
+   		grid-row: 20 / 24;
+  	}
+  	&:nth-child(40) {
+  		background-color: $color2;
+   		grid-column: 44 / 45;
+   		grid-row: 9 / 31;
+  	}
+  	&:nth-child(41) {
+  		background-color: $color2;
+   		grid-column: 17 / 56;
+   		grid-row: 31 / 32;
+  	}
+  	&:nth-child(42) {
+  		background-color: $color1;
+   		grid-column: 17 / 29;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(43) {
+  		background-color: $color2;
+   		grid-column: 29 / 30;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(44) {
+  		background-color: $color1;
+   		grid-column: 30 / 39;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(45) {
+  		background-color: $color2;
+   		grid-column: 39 / 40;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(46) {
+  		background-color: $color4;
+   		grid-column: 40 / 44;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(47) {
+  		background-color: $color3;
+   		grid-column: 45 / 48;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(48) {
+  		background-color: $color1;
+   		grid-column: 49 / 56;
+   		grid-row: 25 / 31;
+  	}
+  	&:nth-child(49) {
+  		background-color: $color5;
+   		grid-column: 17 / 24;
+   		grid-row: 32 / 39;
+  	}
+  	&:nth-child(50) {
+  		background-color: $color2;
+   		grid-column: 24 / 40;
+   		grid-row: 32 / 39;
+  	}
+  	&:nth-child(51) {
+  		background-color: $color1;
+   		grid-column: 40 / 56;
+   		grid-row: 32 / 39;
+  	}
+  }
+}
+
+			
+				
+			
+		
+			
